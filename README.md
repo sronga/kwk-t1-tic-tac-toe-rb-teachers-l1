@@ -453,4 +453,4 @@ When you click on `lib/tic_tac_toe.rb`, you'll see something like:
 
 The lines in green have been tested, the lines in red haven't. When all tests pass, you should see 100% test coverage.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/tic-tac-toe-rb' title='Tic Tac Toe in Ruby'>Tic Tac Toe in Ruby</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>KWK-T1 Tic Tac Toe in Ruby</p>
