@@ -23,7 +23,7 @@ end
 
 board = [" ", " ", " "]
 
-def move(array,index,value="X")
+def move(array,index,value = "X")
   array[index] = value
 end
 
