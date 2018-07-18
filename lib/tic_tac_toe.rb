@@ -18,3 +18,27 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
+
+def input_to_index(user_input)
+  converted_input = user_input.to_i - 1
+end
+
+board = [" ", " ", " "]
+
+def move(array,index,value="X")
+  array[index] = value
+end
+
+def position_taken?(board, index)
+  if board[index] == " "
+    false
+  elsif board[index] == "X"
+    true
+  elsif board[index] == "O"
+   true
+ elsif board[index] == nil
+   false
+ elsif board[index] == ""
+   false
+  end
+end
