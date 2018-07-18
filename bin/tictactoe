@@ -9,3 +9,9 @@ def play(board)
   counter += 1
   end
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+allow($stdout).to receive(:puts)
+
+allow(self).to receive(:over?).and_return(false, true)
